@@ -3,6 +3,8 @@
 }
 
 .title {
+    width: 254px;
+    height: 96px;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: bold;
@@ -12,6 +14,8 @@
 }
 
 .description {
+    width: 370px;
+    height: 120px;
     color: #7D7987;
     font-family: 'Mulish';
     font-style: normal;

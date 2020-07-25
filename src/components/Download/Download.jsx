@@ -8,13 +8,13 @@ const Download = () => {
 
             <div className={style.text}>
                 <div className={style.title}>
-                    Download our<td /> mobile apps
+                    Download our mobile apps
                 </div>
                 <div className={style.line}></div>
                 <div className={style.description}>
-                    Our dedicated patient engagement app and<td />
-                    web portal allow you to access information <td />
-                    instantaneously (no tedeous form, long calls,<td />
+                    Our dedicated patient engagement app and
+                    web portal allow you to access information
+                    instantaneously (no tedeous form, long calls,
                     or administrative hassle) and securely
                 </div>
                 <button className={style.button}>
@@ -22,7 +22,7 @@ const Download = () => {
                 </button>
             </div>
             <div className={style.down_load}>
-                <img src="download.png" alt="image" />
+                <img src="download.png" alt="download" />
             </div>
         </div >
     );

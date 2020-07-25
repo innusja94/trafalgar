@@ -8,11 +8,11 @@ const Header = () => {
                 <img src="logo1.png" alt="logo" />
             </div>
             <div className={style.menu}>
-                <a href="#">Home</a>
-                <a href="#">Find a doctor</a>
-                <a href="#">Apps</a>
-                <a href="#">Testimonials</a>
-                <a href="#">About us</a>
+                <a href="/#">Home</a>
+                <a href="/#">Find a doctor</a>
+                <a href="/#">Apps</a>
+                <a href="/#">Testimonials</a>
+                <a href="/#">About us</a>
             </div>
         </div>
 

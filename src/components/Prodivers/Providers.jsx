@@ -6,11 +6,11 @@ const Providers = () => {
     return (
         <div className={style.wrapper}>
             <div className={style.back_image}>
-                <img src="providers.png" alt="image" />
+                <img src="providers.png" alt="provider" />
             </div>
             <div className={style.text}>
                 <div className={style.title}>
-                    Leading healthcare <td /> providers
+                    Leading healthcare providers
                 </div>
                 <div className={style.line}></div>
                 <div className={style.description}>

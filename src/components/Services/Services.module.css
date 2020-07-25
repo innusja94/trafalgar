@@ -10,14 +10,15 @@
 }
 
 .description {
+    width: 952px;
     color: #7D7987;
     font-family: 'Mulish';
-    font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
     text-align: center;
     margin-bottom: 80px;
+    margin-left: 140px;
 }
 
 .line {
