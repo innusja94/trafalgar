@@ -1,0 +1,71 @@
+.back_ground {
+    width: 1120px;
+    height: 425px;
+    background: linear-gradient(191.49deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    margin-top: 266px;
+    
+}
+
+.title {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 25px;
+}
+
+.line {
+    width: 56px;
+    border: 2px solid white;
+    border-radius: 6px;
+    position: relative;
+    left: 47%;
+    margin-bottom: 77px;
+}
+
+.avatar {
+    width: 141px;
+    height: 141px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    
+}
+
+.items {
+    visibility: visible;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.name {
+    color: #FFFFFF;
+    font-family: 'Mulish';
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    margin-bottom: -15px;
+}
+
+.post {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+}
+.feedback {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_side {
+    display: flex;
+}

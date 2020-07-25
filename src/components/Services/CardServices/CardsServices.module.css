@@ -1,0 +1,58 @@
+.title {
+    color: #000000;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 56px;
+}
+
+.description {
+    color: #7D7987;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.card {
+    width: 330px;
+    height: 354px;
+    border-radius: 50px;
+    box-shadow: 10px 40px 15px 2px rgba(229, 233, 246, 0.3) ;
+    padding-left: 30px;
+    margin-bottom: 37px;
+    background-color: white;
+    position: relative;
+    
+}
+
+.card img {
+    margin-top: 54px;
+    margin-bottom: 22px;
+    
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1.6fr 1.6fr 1fr;
+    margin-bottom: 37px;
+  position: relative;z-index: 2;
+  
+}
+
+.emergency img {
+    margin-bottom: 45px;
+}
+
+.pharmacy img {
+    margin-bottom: 30px;
+}
+
+.doctor img {
+    margin-bottom: 28px;
+}
+
+
+

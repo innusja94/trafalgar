@@ -1,0 +1,72 @@
+.title {
+    color: #000000;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.description {
+    color: #7D7987;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.line {
+    border: 2px solid black;
+    width: 56px;
+    margin-bottom: 33px;
+    position: relative;
+    left: 48%;
+    border-radius: 5px;
+}
+
+.vector img {
+    width: 1118px;
+    height: 968px;
+    position: absolute;
+    right: 48%;
+    margin: 0 auto ;
+    z-index: 1;
+}
+
+.element img {
+    position: absolute;
+    left: 78%;
+    margin-top: 550px;
+}
+
+.button {
+    width: 200px;
+    height: 56px;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    background-color: white;
+    color: #458FF6;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 27%;
+    margin-top: 43%;
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    background-color: #458FF6;
+    color: white;
+}

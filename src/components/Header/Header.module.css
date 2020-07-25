@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.logo img{
+    width: 160px;
+    height: 41px;
+    /* margin-top: 56px; */
+}
+
+.menu a{
+    text-decoration: none;
+    color: #1F1534;
+    opacity: 0.5;
+    margin-left: 40px; 
+    outline: none;
+}
+
+.menu a:hover {
+    border-bottom: 1px black solid; 
+    
+} 
+
+.menu a:active {
+    color: #7C9BFF;
+    
+}

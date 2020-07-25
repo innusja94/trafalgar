@@ -1,0 +1,70 @@
+.illustration img{
+    width: 693px;
+    height: 598px;
+    position: absolute;
+    right: 16%;
+    top: 177px;
+    margin-bottom: 192px;
+}
+
+.element img {
+    position: absolute;
+    left: 0;
+    margin-top: -125px;
+}
+
+.title {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 25px;
+    white-space: pre-line;
+}
+
+.description {
+    color: #7D7987;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px; 
+    margin-bottom: 45px;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background: #458FF6;
+    border-radius: 55px;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    cursor: pointer;
+    margin-bottom: 344px;
+}
+
+.button:hover {
+    background-color: white;
+    border: 1px solid #458FF6;
+    color: #458FF6; 
+}
+
+.text {
+    margin-top: 16%;
+    
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/src/main/assets/fonts/Mulish.ttf'); /* IE9 Compat Modes */
+    src: url('/src/main/assets/fonts/Mulish-Italic.ttf'); /* IE9 Compat Modes */
+    
+  }
