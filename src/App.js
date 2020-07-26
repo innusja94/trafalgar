@@ -7,6 +7,9 @@ import CardsServices from './components/Services/CardServices/CardsServices';
 import Providers from './components/Prodivers/Providers';
 import Download from './components/Download/Download';
 import CarouselBox from './components/CarouselBox/CarouselBox';
+import CheckOut from './components/CheckOut/CheckOut';
+import Footer from './components/Footer/Footer';
+
 
 
 function App() {
@@ -19,6 +22,8 @@ function App() {
       <Providers />
       <Download />
       <CarouselBox />
+      <CheckOut />
+      <Footer />
     </div>
   );
 }

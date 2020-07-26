@@ -5,17 +5,11 @@ import founder from '../assets/edward.png';
 
 
 export default class CarouselBox extends Component {
-    constructor(props) {
-        super(props);
-
-        this.inputRef = React.createRef();
-    }
-
     render() {
         return (
             <Carousel>
-                <Carousel.Item ref={this.inputRef}>
-                    <div className={style.back_ground} ref={this.wrapper}>{this.props.children}</div>
+                <Carousel.Item>
+                    <div className={style.back_ground}></div>
                 </Carousel.Item>
                 <Carousel.Caption>
                     <div className={style.title}>
@@ -40,12 +34,9 @@ export default class CarouselBox extends Component {
                         </div>
                     </div>
                 </Carousel.Caption>
-
             </Carousel>
 
         )
     }
-    componentDidMount() {
-        this.inputRef.current.focus();
-    }
+
 }
