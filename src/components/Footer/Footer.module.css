@@ -2,4 +2,71 @@
     width: 1600px;
     height: 432px;
     background: linear-gradient(180.92deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    display: flex;
+    justify-content: space-between;
 }
+
+.items{
+    display: flex;
+    margin-top: 110px;
+}
+
+.items a {
+    display: flex;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+}
+
+.item_company {
+    margin-right: 177px;
+}
+
+.item_region {
+    margin-right: 166px;
+}
+
+.title {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo_name {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_T {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background: white;
+    color: #5B9BF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.text {
+    width: 390px;
+    color: white;
+    margin-bottom: 31px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.copyright {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+

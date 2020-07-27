@@ -6,6 +6,7 @@ const Footer = () => {
         <div className={style.container}>
             <div className={style.left_side}>
                 <div className={style.logo_name}>
+                    <p className={style.logo_T}>T</p>
                     Trafalgar
                 </div>
                 <div className={style.text}>
@@ -18,7 +19,27 @@ const Footer = () => {
             </div>
             <div className={style.right_side}>
                 <div className={style.items}>
-
+                    <div className={style.item_company}>
+                        <p className={style.title}>Company</p>
+                        <a href="/#">About</a>
+                        <a href="/#">Testimonials</a>
+                        <a href="/#">Find a doctor</a>
+                        <a href="/#">Apps</a>
+                    </div>
+                    <div className={style.item_region}>
+                        <p className={style.title}>Region</p>
+                        <a href="/#">Indonesia</a>
+                        <a href="/#">Singapore</a>
+                        <a href="/#">Hongkong</a>
+                        <a href="/#">Canada</a>
+                    </div>
+                    <div className={style.item_help}>
+                        <p className={style.title}>Help</p>
+                        <a href="/#">Help center</a>
+                        <a href="/#">Contact support</a>
+                        <a href="/#">Instructions</a>
+                        <a href="/#">How it works</a>
+                    </div>
                 </div>
             </div>
         </div>
