@@ -42,6 +42,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <div className={style.dots}><img src="element.png" alt="element" /></div>
+
         </div>
 
     );

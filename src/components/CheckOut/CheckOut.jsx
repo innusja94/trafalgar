@@ -4,6 +4,8 @@ import style from './CheckOut.module.css'
 const CheckOut = () => {
     return (
         <div className={style.check}>
+            <img src="pic.png" alt="pic" className={style.pic} />
+            <img src="element.png" alt="element" className={style.element1} />
             <div className={style.name}>
                 Check out our latest article
             </div>
@@ -67,6 +69,7 @@ const CheckOut = () => {
                 </div>
             </div>
             <button className={style.button}>View all</button>
+            <img src="element.png" alt="element" className={style.element2} />
         </div>
 
     );

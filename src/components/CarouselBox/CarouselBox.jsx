@@ -8,9 +8,7 @@ export default class CarouselBox extends Component {
     render() {
         return (
             <Carousel>
-                <Carousel.Item>
-                    <div className={style.back_ground}></div>
-                </Carousel.Item>
+                <div className={style.back_ground}></div>
                 <Carousel.Caption>
                     <div className={style.title}>
                         What our customer are saying

@@ -5,7 +5,6 @@ import style from './Download.module.css'
 const Download = () => {
     return (
         <div className={style.wrapper}>
-
             <div className={style.text}>
                 <div className={style.title}>
                     Download our mobile apps
@@ -19,6 +18,7 @@ const Download = () => {
                 </div>
                 <button className={style.button}>
                     Download
+                    <img src="arrow-down.png" alt="arrow" className={style.arrowDown} />
                 </button>
             </div>
             <div className={style.down_load}>
