@@ -17,11 +17,21 @@ export default class CarouselBox1 extends Component {
             slidesToScroll: 1,
             className: "slides"
         };
+        function ActionLink() {
+            function handleClick(e) {
+                e.preventDefault();
+                console.log(';sldkjfas');
+            }
+            return (
+                <button className={style.slickArrowSlickPrev} type="button" data-role="none" style={{ display: "block" }} onClick={handleClick}></button>);
+        }
+
         return (
+
             <div>
                 <Slider {...settings}>
                     <div className={style.slickSliderSlidesSlickInitialized}>
-                        <button className={style.slickArrowSlickPrev} type="button" data-role="none" style={{ display: "block" }}></button>
+
                         <button className={style.slickArrowSlickNext} type="button" data-role="none" style={{ display: "block" }}></button>
                         <img src="herbal.png" alt="" style={{ width: 100 }} />
                     </div>
@@ -36,5 +46,4 @@ export default class CarouselBox1 extends Component {
             </div>
         )
     }
-
 }
