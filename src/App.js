@@ -9,6 +9,8 @@ import Download from './components/Download/Download';
 import CarouselBox from './components/CarouselBox/CarouselBox';
 import CheckOut from './components/CheckOut/CheckOut';
 import Footer from './components/Footer/Footer';
+import CarouselBox1 from './components/CarouselBox/CarouselBox1/CarouselBox1';
+
 
 
 
@@ -22,6 +24,7 @@ function App() {
       <Providers />
       <Download />
       <CarouselBox />
+      <CarouselBox1 />
       <CheckOut />
       <Footer />
     </div>
