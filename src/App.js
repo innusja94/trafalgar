@@ -6,10 +6,9 @@ import './App.css';
 import CardsServices from './components/Services/CardServices/CardsServices';
 import Providers from './components/Prodivers/Providers';
 import Download from './components/Download/Download';
-import CarouselBox from './components/CarouselBox/CarouselBox';
 import CheckOut from './components/CheckOut/CheckOut';
 import Footer from './components/Footer/Footer';
-import Slider from './components/CarouselBox/Slider/Slider';
+import Slider from './components/Slider/Slider';
 
 
 
@@ -23,7 +22,6 @@ function App() {
       <CardsServices />
       <Providers />
       <Download />
-      <CarouselBox />
       <Slider />
       <CheckOut />
       <Footer />

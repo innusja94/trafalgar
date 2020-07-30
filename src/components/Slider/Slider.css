@@ -1,3 +1,55 @@
+.background {
+    max-width: 1120px;
+    height: 425px;
+    background: linear-gradient(191.49deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    margin-top: 266px;
+}
+
+.next-slick-arrow,
+.prev-slick-arrow {
+    color: #458FF6;
+    font-size: 48px;
+    margin-top: 253px;
+    position: absolute;
+}
+
+.next-slick-arrow {
+    right: 510px;
+    top: 152px;
+    
+}
+
+.prev-slick-arrow {
+    left: 430px;
+    top: 152px;
+}
+
+.slick-dots {
+    right: 40px;
+}
+
+.slick-dots li {
+	display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #5B9BF3;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5); 
+    top: 47px;
+    
+}
+
+.slick-dots .slick-active {
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    background-color: #5B9BF3; 
+}
+
 .back_ground {
     width: 1120px;
     height: 425px;
@@ -12,6 +64,10 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 25px;
 }
 
@@ -25,8 +81,8 @@
 }
 
 .avatar {
-    width: 141px;
-    height: 141px;
+    width: 138px;
+    height: 138px;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid white;
@@ -71,5 +127,13 @@
 
 .left_side {
     display: flex;
+    margin-left: 118px;
 }
 
+.right_side {
+    margin-right: 118px;
+}
+
+.slick-dots li button:before {
+    display: none;
+  }
