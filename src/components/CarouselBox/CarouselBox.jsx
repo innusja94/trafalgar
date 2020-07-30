@@ -4,7 +4,7 @@ import style from './CarouselBox.module.css';
 import founder from '../assets/edward.png';
 
 
-export default class CarouselBox extends Component {
+export default class CarouselBox1 extends Component {
     render() {
         return (
             <Carousel>

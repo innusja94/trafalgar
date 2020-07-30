@@ -9,7 +9,7 @@ import Download from './components/Download/Download';
 import CarouselBox from './components/CarouselBox/CarouselBox';
 import CheckOut from './components/CheckOut/CheckOut';
 import Footer from './components/Footer/Footer';
-import CarouselBox1 from './components/CarouselBox/CarouselBox1/CarouselBox1';
+import Slider from './components/CarouselBox/Slider/Slider';
 
 
 
@@ -24,7 +24,7 @@ function App() {
       <Providers />
       <Download />
       <CarouselBox />
-      <CarouselBox1 />
+      <Slider />
       <CheckOut />
       <Footer />
     </div>
