@@ -8,7 +8,6 @@
 .logo img{
     width: 160px;
     height: 41px;
-    /* margin-top: 56px; */
 }
 
 .menu a{
@@ -27,4 +26,36 @@
 .menu a:active {
     color: #7C9BFF;
     
+}
+
+@media (max-width: 1200px) {
+    .header {
+        max-width: 960px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .logo img {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        max-width: 760px;
+        background: yellow;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .header {
+        max-width: 560px;
+        background: blue;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        width: 95%;
+    }
 }

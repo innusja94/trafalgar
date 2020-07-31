@@ -32,6 +32,9 @@ export default class SliderBox extends Component {
                             What our customer are saying
                     </div>
                         <div className="line"></div>
+                        <div className="element">
+                            <img src="element1.png" alt="element" />
+                        </div>
                         <div className="feedback">
                             <div className="left_side">
                                 <img className="avatar" src={founder} alt="avatar" />
@@ -55,6 +58,9 @@ export default class SliderBox extends Component {
                             What our customer are saying
                     </div>
                         <div className="line"></div>
+                        <div className="element">
+                            <img src="element1.png" alt="element" />
+                        </div>
                         <div className="feedback">
                             <div className="left_side">
                                 <img className="avatar" src={founder} alt="avatar" />
@@ -78,6 +84,9 @@ export default class SliderBox extends Component {
                             What our customer are saying
                     </div>
                         <div className="line"></div>
+                        <div className="element">
+                            <img src="element1.png" alt="element" />
+                        </div>
                         <div className="feedback">
                             <div className="left_side">
                                 <img className="avatar" src={founder} alt="avatar" />

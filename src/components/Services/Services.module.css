@@ -71,3 +71,24 @@
     background-color: #458FF6;
     color: white;
 }
+
+@media (max-width: 1200px) {
+    .description {
+        width: 900px;
+        left: 0;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    
+
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+    
+}

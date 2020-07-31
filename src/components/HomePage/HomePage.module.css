@@ -70,3 +70,44 @@
     src: url('/src/main/assets/fonts/Mulish-Italic.ttf'); /* IE9 Compat Modes */
     
   }
+
+  @media (max-width: 1200px) {
+    .illustration img {
+        width: 400px;
+        height: 305px;
+        max-width: 960px;
+        right: 50px;
+    }
+    .text {
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    .element img {
+        display: none;
+    }
+    .button {
+        margin-left: 95px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 991px) {
+    .illustration img {
+        max-width: 760px;
+        background: yellow;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .illustration img {
+        max-width: 560px;
+        background: blue;
+    }
+}
+
+@media (max-width: 576px) {
+    .illustration img {
+        width: 95%;
+    }
+}
