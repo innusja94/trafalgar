@@ -37,6 +37,7 @@
     color: #FFFFFF;
     font-weight: bold;
     font-size: 20px;
+    width: 100px;
 }
 
 .logo_name {
@@ -86,4 +87,38 @@
 .dots {
     position: absolute;
     top: 75%;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 985px;
+    }
+    .left_side {
+        margin-left: 50px;
+    }
+    .item_company {
+        margin-right: 70px;
+        margin-left: 40px;
+    }
+    .item_region {
+        margin-left: 25px;
+        margin-right: 40px;
+        
+    }
+    .item_help {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    
+
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+    
 }

@@ -108,3 +108,30 @@
     margin-top: 250px;
     margin-left: 480px;
 }
+
+@media (max-width: 1200px) {
+    .check {
+        max-width: 960px;
+        margin-top: 150px;
+        
+    }
+    .name {
+        margin-left: 26%;
+    }
+    .cards {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    
+
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+    
+}

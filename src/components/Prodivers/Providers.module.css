@@ -67,3 +67,38 @@
     left: 83%;
     margin-top: 200px;
 }
+
+@media (max-width: 1200px) {
+    .back_image img {
+        width: 400px;
+        height: 305px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .text {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .button {
+        margin-left: 100px;
+    }
+    .wrapper {
+        margin-top: 190px;
+    }
+    .element img {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    
+
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+    
+}

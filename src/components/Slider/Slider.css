@@ -144,3 +144,34 @@
 .slick-dots li button:before {
     display: none;
   }
+
+  @media (max-width: 1200px) {
+    .background {
+        max-width: 950px;
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+    .next-slick-arrow {
+        right: 450px;
+        top: 58px;
+        
+    }
+    .prev-slick-arrow {
+        left: 365px;
+        top: 58px;
+        
+    }
+}
+
+@media (max-width: 991px) {
+    
+
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+    
+}

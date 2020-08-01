@@ -65,3 +65,35 @@
     margin-bottom: 2px;
     margin-left: 15px;
 }
+
+
+@media (max-width: 1200px) {
+    .wrapper {
+        max-width: 960px;
+        margin-top: -100px;
+    }
+    .text {
+        margin-left: 50px;
+    }
+    .down_load img {
+        width: 400px;
+        height: 305px;
+        margin-right: 50px;
+    }
+    .button {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 991px) {
+    
+
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+    
+}

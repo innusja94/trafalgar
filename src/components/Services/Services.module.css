@@ -78,6 +78,10 @@
         left: 0;
         margin-left: 50px;
     }
+    .button {
+        margin-top: 75%;
+        left: 125px;
+    }
 }
 
 @media (max-width: 991px) {

@@ -37,6 +37,9 @@
     .logo img {
         margin-left: 40px;
     }
+    .menu {
+        margin-right: 40px;
+    }
 }
 
 @media (max-width: 991px) {
