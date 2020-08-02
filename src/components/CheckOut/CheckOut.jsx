@@ -11,7 +11,7 @@ const CheckOut = () => {
             </div>
             <div className={style.line}></div>
             <div className={style.cards}>
-                <div className={style.card}>
+                <div className={style.card1}>
                     <div className={style.picture}>
                         <img src="laboratory.png" alt="pic" />
                     </div>
@@ -30,7 +30,7 @@ const CheckOut = () => {
                         </div>
                     </div>
                 </div>
-                <div className={style.card}>
+                <div className={style.card2}>
                     <div className={style.picture}>
                         <img src="herbal.png" alt="pic" />
                     </div>
@@ -48,7 +48,7 @@ const CheckOut = () => {
                         </div>
                     </div>
                 </div>
-                <div className={style.card}>
+                <div className={style.card3}>
                     <div className={style.picture}>
                         <img src="skin.png" alt="pic" />
                     </div>

@@ -91,17 +91,35 @@
 }
 
 @media (max-width: 991px) {
-    .illustration img {
+    .header {
         max-width: 760px;
-        background: yellow;
+        
     }
 
 }
 
 @media (max-width: 768px) {
-    .illustration img {
+    .header {
         max-width: 560px;
-        background: blue;
+    }
+    .illustration img {
+        width: 300px;
+        height: 210px;
+        margin-top: 80px;
+        margin-right: 30px;
+    }
+    .title {
+        font-size: 36px;
+        width: 600px;
+        margin-left: 90px;
+        margin-top: -30px;
+    }
+    .description {
+        width: 300px;
+        font-size: 18px;
+    }
+    .button {
+        margin-left: 2px;
     }
 }
 

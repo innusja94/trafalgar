@@ -1,4 +1,6 @@
-.card {
+.card1,
+.card2,
+.card3 {
     width: 350px;
     height: 512px;
     background-color: #FFFFFF;
@@ -119,7 +121,31 @@
         margin-left: 26%;
     }
     .cards {
-        margin-left: 50px;
+        margin-left: 85px;
+    }
+    .card1,
+    .card2,
+    .card3 {
+        width: 300px;
+        height: 450px;
+        background: white;
+        margin-left: -10px;
+    }
+    .picture img {
+        width: 300px;
+        height: 195px;
+    }
+    .text {
+        margin-left: 20px;
+    }
+    .description {
+        margin-bottom: 25px;
+    }
+    .card3 {
+        display: none;
+    }
+    .button {
+        margin-bottom: 80px;
     }
 }
 

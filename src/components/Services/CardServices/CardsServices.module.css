@@ -39,7 +39,8 @@
     display: grid;
     grid-template-columns: 1.6fr 1.6fr 1fr;
     margin-bottom: 37px;
-  position: relative;z-index: 2;
+    position: relative;
+    z-index: 2;
   
 }
 
@@ -74,7 +75,22 @@
 }
 
 @media (max-width: 768px) {
-    
+    .cards { 
+        max-width: 560px;
+        display: grid;
+        grid-template-columns: 1.6fr 1.6fr;
+        left: 40px;
+    }
+    .card {
+        margin-right: 35px;
+    }
+    .card img {
+        width: 25%;
+    }
+    .pharmacy img {
+        margin-bottom: 30px;
+        margin-top: 28px;
+    }
 }
 
 @media (max-width: 576px) {
