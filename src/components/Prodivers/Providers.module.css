@@ -116,5 +116,27 @@
 }
 
 @media (max-width: 576px) {
-    
+    .back_image img {
+        width: 200px;
+        height: 130px;
+        margin-top: 30px;
+        left: 100px;
+
+    }
+    .title {
+        font-size: 26px;
+        width: 250px;
+        text-align: center;
+        margin-top: -70px;
+        margin-left: -240px;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+    .line {
+        display: none;
+    }
+    .description {
+        width: 250px;
+        
+    }
 }

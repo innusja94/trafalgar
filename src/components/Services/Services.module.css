@@ -111,5 +111,24 @@
 }
 
 @media (max-width: 576px) {
-    
+    .service {
+        max-width: 360px;
+    }
+    .title {
+        width: 190px;
+        font-size: 26px;
+        margin-left: 90px;
+    }
+    .line {
+        border: 1px solid black;
+        margin-left: -10px;
+    }
+    .description {
+        width: 280px;
+        margin-left: 43px;
+    }
+    .button {
+        margin-top: 1420px;
+        left: -10px;
+    }
 }

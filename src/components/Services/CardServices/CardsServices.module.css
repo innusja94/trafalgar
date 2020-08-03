@@ -94,5 +94,21 @@
 }
 
 @media (max-width: 576px) {
-    
+    .cards {
+        max-width: 360px;
+        display: grid;
+        grid-template-columns: 1.6fr;
+        left: -10px;
+    }
+    .card img {
+        width: 15%;
+        margin: 0;
+        margin-left: 95px;
+    }
+    .card {
+        height: 200px;
+    }
+    .description {
+        text-align: center;
+    }
 }

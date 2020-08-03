@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Header/Header';
+import Header1 from './components/Header/NavBar/NavBar';
 import HomePage from './components/HomePage/HomePage';
 import Services from './components/Services/Services';
 import './App.css';
@@ -13,10 +13,11 @@ import Slider from './components/Slider/Slider';
 
 
 
+
 function App() {
   return (
     <div className="app-wrapper">
-      <Header />
+      <Header1 />
       <HomePage />
       <Services />
       <CardsServices />
