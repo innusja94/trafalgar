@@ -112,5 +112,28 @@
 }
 
 @media (max-width: 576px) {
-    
+    .down_load img {
+        display: none;
+    }
+    .title {
+        font-size: 26px;
+        width: 190px;
+        text-align: center;
+        margin-left: 40px;
+        line-height: normal;
+        margin-top: -120px;
+    }
+    .line {
+        border: 1px solid black;
+        margin-left: 110px;
+        margin-top: -30px;
+    }
+    .description {
+        width: 280px;
+        text-align: center;
+    }
+    .button {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
 }

@@ -219,5 +219,56 @@
 }
 
 @media (max-width: 576px) {
-    
+    .background {
+        max-width: 300px;
+        margin-left: 38px;
+        margin-top: 20px;
+        height: 420px;
+    }
+    .feedback {
+        margin-left: 10px;
+    }
+    .title {
+        width: 200px;
+        line-height: normal;
+        font-size: 22px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .line {
+        margin-left: -16px;
+    }
+    .name {
+        line-height: normal;
+        font-size: 15px;
+        margin-bottom: -10px;
+    }
+    .post {
+        font-size: 15px;
+    }
+    .left_side {
+        margin-left: 30px;
+    }
+    .items {
+        margin-top: -10px;
+    }
+    .text {
+        width: 230px;
+        text-align: center;
+        font-size: 16px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .next-slick-arrow {
+        top: -3px;
+        right: 100px;        
+    }
+    .prev-slick-arrow {
+        top: -3px;
+        left: 105px;
+    }
+    .slick-dots {
+        left: 3px;
+        top: 92%;
+    }
 }

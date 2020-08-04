@@ -68,10 +68,8 @@
         margin-right: 40px;
     }
 }
-
-@media (max-width: 991px) {
+@media (max-width: 414px) {
     
-
 }
 
 @media (max-width: 768px) {
@@ -103,12 +101,24 @@
     .card img {
         width: 15%;
         margin: 0;
-        margin-left: 95px;
+        margin-left: 112px;
+        margin-top: 10px;
     }
     .card {
-        height: 200px;
+        height: 205px;
+        padding-left: 20px;
+    }
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .description {
         text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    
+    
 }

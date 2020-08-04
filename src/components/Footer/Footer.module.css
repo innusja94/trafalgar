@@ -117,11 +117,109 @@
 
 @media (max-width: 768px) {
     .container {
-        max-width: 755px;
-        height: 400px;
+        max-width: 768px;
+        height: 300px;
+    }
+    .item_company {
+        display: none;
+    }
+    .left_side {
+        margin-top: 40px;
+    }
+    .item_region {
+        margin-left: 20px;
+        margin-right: 5px;
+        margin-top: -85px;
+    }
+    .item_help {
+        margin-top: -85px;
+    }
+    .dots {
+        display: none;
     }
 }
 
-@media (max-width: 576px) {
-    
+@media (max-width: 414px) {
+    .container {
+        max-width: 414px;
+    }
+    .text {
+        display: none;
+    }
+    .logo_name {
+        margin-top: -40px;
+        margin-left: 70px;
+    }
+    .copyright {
+        margin-top: 190px;
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: normal;
+        width: 300px;
+    }
+    .item_region {
+        margin-left: -290px;
+        margin-right: 15px;
+        margin-top: -50px;        
+    }
+    .item_region a {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .item_help {
+        margin-left: 40px;
+        margin-top: -50px;
+    }
+    .item_help a {
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 375px;
+        height: 350px;
+    }
+    .left_side {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .dots {
+        display: none;
+    }
+    .text {
+        display: none;
+    }
+    .item_company {
+        display: none;
+    }
+    .logo_name {
+        margin-top: -30px;
+        margin-left: 70px;
+    }
+    .copyright {
+        margin-top: 220px;
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: normal;
+        width: 300px;
+    }
+    .item_region {
+        margin-left: -290px;
+        margin-right: 15px;
+        margin-top: -50px;        
+    }
+    .item_region a {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .item_help {
+        margin-left: 40px;
+        margin-top: -50px;
+    }
+    .item_help a {
+        font-size: 15px;
+        line-height: 30px;
+    }
 }

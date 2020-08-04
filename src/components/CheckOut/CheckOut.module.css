@@ -124,8 +124,7 @@
         margin-left: 85px;
     }
     .card1,
-    .card2,
-    .card3 {
+    .card2 {
         width: 300px;
         height: 450px;
         background: white;
@@ -149,15 +148,30 @@
     }
 }
 
-@media (max-width: 991px) {
-    
-
-}
-
-@media (max-width: 768px) {
-    
-}
-
 @media (max-width: 576px) {
-    
+    .check {
+        max-width: 350px;
+    }
+    .card2 {
+        display: none;
+    }
+    .name {
+        width: 200px;
+        line-height: normal;
+        text-align: center;
+        font-size: 26px;
+        margin-left: 80px;
+    }
+    .line {
+        border: 1px solid black;
+        margin-left: 155px;
+    }
+    .card1 {
+        margin-left: -48px;
+        margin-top: -30px;
+    }
+    .button {
+        margin-left: 85px;
+        margin-top: 20px;
+    }
 }
