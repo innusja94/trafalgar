@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/innusja94/trafalgar/static/css/main.051ce95c.chunk.css",
-    "main.js": "/innusja94/trafalgar/static/js/main.68860883.chunk.js",
-    "main.js.map": "/innusja94/trafalgar/static/js/main.68860883.chunk.js.map",
-    "runtime-main.js": "/innusja94/trafalgar/static/js/runtime-main.34f8c582.js",
-    "runtime-main.js.map": "/innusja94/trafalgar/static/js/runtime-main.34f8c582.js.map",
-    "static/css/2.c674aa63.chunk.css": "/innusja94/trafalgar/static/css/2.c674aa63.chunk.css",
-    "static/js/2.9e9ee957.chunk.js": "/innusja94/trafalgar/static/js/2.9e9ee957.chunk.js",
-    "static/js/2.9e9ee957.chunk.js.map": "/innusja94/trafalgar/static/js/2.9e9ee957.chunk.js.map",
-    "index.html": "/innusja94/trafalgar/index.html",
-    "precache-manifest.efbff4955df3dde3d64b30175e97d781.js": "/innusja94/trafalgar/precache-manifest.efbff4955df3dde3d64b30175e97d781.js",
-    "service-worker.js": "/innusja94/trafalgar/service-worker.js",
-    "static/css/2.c674aa63.chunk.css.map": "/innusja94/trafalgar/static/css/2.c674aa63.chunk.css.map",
-    "static/css/main.051ce95c.chunk.css.map": "/innusja94/trafalgar/static/css/main.051ce95c.chunk.css.map",
-    "static/js/2.9e9ee957.chunk.js.LICENSE.txt": "/innusja94/trafalgar/static/js/2.9e9ee957.chunk.js.LICENSE.txt",
-    "static/media/edward.png": "/innusja94/trafalgar/static/media/edward.173689f4.png",
-    "static/media/slick-theme.css": "/innusja94/trafalgar/static/media/slick.f97e3bbf.svg"
+    "main.css": "/trafalgar/static/css/main.051ce95c.chunk.css",
+    "main.js": "/trafalgar/static/js/main.37bd213c.chunk.js",
+    "main.js.map": "/trafalgar/static/js/main.37bd213c.chunk.js.map",
+    "runtime-main.js": "/trafalgar/static/js/runtime-main.c9357a88.js",
+    "runtime-main.js.map": "/trafalgar/static/js/runtime-main.c9357a88.js.map",
+    "static/css/2.f1e41520.chunk.css": "/trafalgar/static/css/2.f1e41520.chunk.css",
+    "static/js/2.9e9ee957.chunk.js": "/trafalgar/static/js/2.9e9ee957.chunk.js",
+    "static/js/2.9e9ee957.chunk.js.map": "/trafalgar/static/js/2.9e9ee957.chunk.js.map",
+    "index.html": "/trafalgar/index.html",
+    "precache-manifest.8856b6a728e51b8cd4dc38113697c81b.js": "/trafalgar/precache-manifest.8856b6a728e51b8cd4dc38113697c81b.js",
+    "service-worker.js": "/trafalgar/service-worker.js",
+    "static/css/2.f1e41520.chunk.css.map": "/trafalgar/static/css/2.f1e41520.chunk.css.map",
+    "static/css/main.051ce95c.chunk.css.map": "/trafalgar/static/css/main.051ce95c.chunk.css.map",
+    "static/js/2.9e9ee957.chunk.js.LICENSE.txt": "/trafalgar/static/js/2.9e9ee957.chunk.js.LICENSE.txt",
+    "static/media/edward.png": "/trafalgar/static/media/edward.173689f4.png",
+    "static/media/slick-theme.css": "/trafalgar/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.34f8c582.js",
-    "static/css/2.c674aa63.chunk.css",
+    "static/js/runtime-main.c9357a88.js",
+    "static/css/2.f1e41520.chunk.css",
     "static/js/2.9e9ee957.chunk.js",
     "static/css/main.051ce95c.chunk.css",
-    "static/js/main.68860883.chunk.js"
+    "static/js/main.37bd213c.chunk.js"
   ]
 }
