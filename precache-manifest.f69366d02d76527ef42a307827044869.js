@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e6718720b99ce35f41a8557e0ac9ee46",
+    "revision": "567610cd26e36dae02bda35bab094058",
     "url": "/trafalgar/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trafalgar/static/css/2.f1e41520.chunk.css"
   },
   {
-    "revision": "d2a3f77310880a497dd7",
-    "url": "/trafalgar/static/css/main.cf121ab4.chunk.css"
+    "revision": "5871042bacdc69cdd249",
+    "url": "/trafalgar/static/css/main.a8a6d4e8.chunk.css"
   },
   {
     "revision": "dae08440596a8ac8cf05",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trafalgar/static/js/2.9e9ee957.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d2a3f77310880a497dd7",
+    "revision": "5871042bacdc69cdd249",
     "url": "/trafalgar/static/js/main.37bd213c.chunk.js"
   },
   {
